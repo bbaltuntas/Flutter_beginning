@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   date_format: ^2.0.2
+  flutter_snake_navigationbar: ^0.5.0
   fluttertoast: ^8.0.3
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -38,6 +39,14 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+    - family: Elyazisi
+      fonts:
+        - asset: assets/fonts/DancingScript-Regular.ttf
+    - family: GenelFont
+      fonts:
+        - asset: assets/fonts/PatrickHand-Regular.ttf
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -47,6 +56,7 @@ flutter:
     - assets/images/vkk.png
     - assets/images/Spinner-1s-200px.gif
     - assets/images/adanakebap.jpg
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
